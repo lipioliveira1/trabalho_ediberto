@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<LinearLayout
+
+    android:orientation="vertical"
+
+    tools:context=".MainActivity"
+
+    android:layout_height="match_parent"
+
+    android:layout_width="match_parent"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <TextView
+
+        android:layout_height="wrap_content"
+
+        android:layout_width="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:textFontWeight="800"
+
+        android:textColor="#7119e7"
+
+        android:textSize="39dp"
+
+        android:fontFamily="Arial"
+
+        android:text="Cadastro de Clientes"/>
+
+
+
+    <TextView
+
+        android:layout_height="wrap_content"
+
+        android:layout_width="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:textFontWeight="700"
+
+        android:textSize="20dp"
+
+        android:text="Login e Senha"
+
+        android:layout_marginBottom="25dp"/>
+
+
+
+    <TextView
+
+        android:layout_height="wrap_content"
+
+        android:layout_width="wrap_content"
+
+        android:textSize="18dp"
+
+        android:text="Usuario"/>
+
+
+
+    <EditText
+
+        android:layout_height="wrap_content"
+
+        android:layout_width="match_parent"
+
+        android:text=""
+
+        android:layout_marginBottom="20dp"
+
+        android:inputType="textPersonName"
+
+        android:ems="10"
+
+        android:id="@+id/textUsuario"/>
+
+
+
+    <TextView
+
+        android:layout_height="wrap_content"
+
+        android:layout_width="wrap_content"
+
+        android:textSize="18dp"
+
+        android:text="Senha"/>
+
+
+
+    <EditText
+
+        android:layout_height="wrap_content"
+
+        android:layout_width="match_parent"
+
+        android:text="" android:inputType="textPassword"
+
+        android:ems="10"
+
+        android:id="@+id/textSenha"/>
+
+
+
+    <Button
+
+        android:layout_height="58dp"
+
+        android:layout_width="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:text="ENTRAR"
+
+        android:id="@+id/acesso"
+
+        android:layout_marginTop="25dp"/>
+
+
+
+</LinearLayout>
